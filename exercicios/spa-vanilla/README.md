@@ -91,3 +91,24 @@ window.addEventListener('load', gerenciarRota);
 ```
 
 Pronto, você tem o mínimo de um SPA funcionando, mas ainda há muito mais que pode ser explorado. É possível fazer muitas outras coisas ainda em cima desse estudo, gerenciamento de estados, compartimentar o nosso código e pensar de fato na arquitetura da nossa aplicação, interagir com uma API e consumir conteúdo do back-end para renderização das páginas, e muito mais.
+
+# 4. Melhorias
+
+# 4.1 Consumindo dados via API Rest
+
+Consuma dados da API https://jsonplaceholder.typicode.com/ para criar novas páginas. Crie as páginas:
+
+- Usuários
+- Posts
+- Photos
+
+Consumindo os respectivos `endpoints` especificados na API e manipulando o DOM para inserção dos novos elementos na página a partir do JSON retornado na requisição.
+
+Exemplos de uso: https://jsonplaceholder.typicode.com/guide/
+
+Utilize `fetch`, `then` ou `async`/`await`.
+
+# 4.2 Modularização
+
+Separe o código em diferentes scripts para melhor modularizá-lo, separando em diferentes responsabilidade (roteamento, páginas, etc).
+Utilize os módulos nativos do navegador ou inclua um sistema de empacotamento (*bundle*), como o (esbuild)[https://esbuild.github.io/].
