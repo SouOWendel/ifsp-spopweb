@@ -1,30 +1,21 @@
+# Programação Dinâmica para Web
 
 <table style="width: 100%;">
-	<tr>
-		<td>
-			<img width="100" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/IFSP_Logo.jpg/250px-IFSP_Logo.jpg" alt="Instituto Federal São Paulo" />
-		</td>
-		<td span="2">
-			<h1 style="border: none;">Programação Dinâmica para Web</h1>
-		</td>
-	</tr>
-</table>
-
-<table style="width: 100%;">
-	<thead>
+    <tbody>
 		<tr>
-			<th scope="col">Curso</th>
-			<th scope="col">Sigla</th>
-			<th scope="col">Professores</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Tecnólogo em Desenvolvimento de Sistemas</td>
-			<td>SPOPWEB</td>
-			<td><a href="https://allysonsouza.com.br/">Allyson Souza</a></td>
-		</t	r>
-	</tbody>
+            <th rowspan="2" scope="col">
+                <img width="100" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/IFSP_Logo.jpg/250px-IFSP_Logo.jpg" alt="Instituto Federal São Paulo" />
+            </th>
+            <th scope="col">Curso</th>
+            <th scope="col">Sigla</th>
+            <th scope="col">Professores</th>
+        </tr>
+        <tr>
+            <td>Tecnólogo em Desenvolvimento de Sistemas</td>
+            <td>SPOPWEB</td>
+            <td><a href="https://allysonsouza.com.br/" target="_blank" rel="noopener noreferrer">Allyson Souza</a></td>
+        </tr>
+    </tbody>
 </table>
 
 <hr style="border-color: #379936; margin: 2em 0;"/>
